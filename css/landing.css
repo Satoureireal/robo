@@ -840,7 +840,6 @@
     justify-content: center;
     align-items: center;
     gap: 0;
-    /*! height: 500px; */
 }
 
 .use-item-wrapper-1,
@@ -849,9 +848,8 @@
     display: flex;
     justify-content: center;
     float: left;
-    /*! height: 500px; */
-    width: auto;
     width: 290px;
+    min-width: 0;
 }
 
 .use-item {
@@ -898,6 +896,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.use-item__qr_3 {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
 }
 
 .use-item__qr img {
@@ -955,7 +961,8 @@
     height: 80px;
 }
 
-.use-item__text p {
+.use-item__text p,
+.use-item__text span.text-green-500 {
     color: #14A850;
     font-weight: 800;
 }
@@ -965,7 +972,7 @@
 }
 
 .x-image {
-    width: 187px;
+    width: 272px;
 }
 
 .mi-98-image {
@@ -973,7 +980,7 @@
 }
 
 .aaspro-image {
-    width: 189px;
+    width: 320px;
 }
 
 .use-item__qr .aas-robo-image {
